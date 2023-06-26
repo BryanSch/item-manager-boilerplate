@@ -67,7 +67,7 @@ Click the "Delete" button next to an itemto remove it from the list.
 Use the "Save" button to download the job list as a JSON file.
 Use the "Import" button to import a JSON file and load the jobs into the application.
 
-## IContributing
+## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
