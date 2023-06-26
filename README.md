@@ -22,7 +22,7 @@ git clone <repository-url>
 
 Navigate to the project directory:
 
-````
+```
 
 cd job-manager
 
@@ -47,6 +47,7 @@ npm start
 Open your browser and visit http://localhost:3000 to view the Job Manager.
 
 ## Configuration
+
 The application can be configured by modifying the configLabels.js file. The following configuration options are available:
 
 title: The title displayed in the application.
@@ -59,14 +60,17 @@ saveButtonLabel: The label for the save jobs button.
 importButtonLabel: The label for the import jobs button.
 
 ## Useage
+
 Enter the details in the input fields and click the "Add" button to add a new item.
 Click the "Edit" button next to an item to update its details.
 Click the "Delete" button next to an itemto remove it from the list.
 Use the "Save" button to download the job list as a JSON file.
 Use the "Import" button to import a JSON file and load the jobs into the application.
 
-
 ## IContributing
+
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
 ```
-````
+
+```
