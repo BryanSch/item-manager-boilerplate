@@ -16,9 +16,9 @@ To install and run the Job Manager locally, follow these steps:
 
 Clone the repository:
 
-````
+```
 git clone <repository-url>
- ```
+```
 
 Navigate to the project directory:
 
@@ -69,3 +69,4 @@ Use the "Import" button to import a JSON file and load the jobs into the applica
 ## IContributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 ```
+````
