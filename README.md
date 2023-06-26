@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Item Manager Boilerplate
 
-## Getting Started
+This initially was created as a job manager- a simple display of building a quick Next.js app
 
-First, run the development server:
+This boilerplate is now a customizable item/task tracker that can save and import a user file as well.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Use to update as need and begin your task building projects!
+
+## Description
+
+The item manager allows you to keep track of items with multiple inputs and a date. It provides features to add, update, and delete items, as well as import and export item data.
+
+## Installation
+
+To install and run the Job Manager locally, follow these steps:
+
+Clone the repository:
+
+````
+git clone <repository-url>
+ ```
+
+Navigate to the project directory:
+
+````
+
+cd job-manager
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install the dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+npm install
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the application:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npm start
 
-## Deploy on Vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open your browser and visit http://localhost:3000 to view the Job Manager.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Configuration
+The application can be configured by modifying the configLabels.js file. The following configuration options are available:
+
+title: The title displayed in the application.
+input1Label: The label for the first input field.
+input2Label: The label for the second input field.
+input3Label: The label for the third input field.
+addButtonLabel: The label for the add job button.
+updateButtonLabel: The label for the update job button.
+saveButtonLabel: The label for the save jobs button.
+importButtonLabel: The label for the import jobs button.
+
+## Useage
+Enter the details in the input fields and click the "Add" button to add a new item.
+Click the "Edit" button next to an item to update its details.
+Click the "Delete" button next to an itemto remove it from the list.
+Use the "Save" button to download the job list as a JSON file.
+Use the "Import" button to import a JSON file and load the jobs into the application.
+
+
+## IContributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+```
